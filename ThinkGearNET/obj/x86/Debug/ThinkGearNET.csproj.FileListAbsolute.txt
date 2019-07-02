@@ -1,0 +1,7 @@
+E:\MindWave\thinkgearnet\ThinkGearNET\obj\x86\Debug\ThinkGearNET.csprojAssemblyReference.cache
+E:\MindWave\thinkgearnet\ThinkGearNET\obj\x86\Debug\ThinkGearNET.csproj.CoreCompileInputs.cache
+E:\MindWave\thinkgearnet\ThinkGearNET\bin\x86\Debug\thinkgear.dll
+E:\MindWave\thinkgearnet\ThinkGearNET\bin\x86\Debug\ThinkGearNET.dll
+E:\MindWave\thinkgearnet\ThinkGearNET\bin\x86\Debug\ThinkGearNET.pdb
+E:\MindWave\thinkgearnet\ThinkGearNET\obj\x86\Debug\ThinkGearNET.dll
+E:\MindWave\thinkgearnet\ThinkGearNET\obj\x86\Debug\ThinkGearNET.pdb
