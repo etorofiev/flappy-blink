@@ -47,26 +47,31 @@
             this.endText1 = new System.Windows.Forms.Label();
             this.endText2 = new System.Windows.Forms.Label();
             this.gameDesigner = new System.Windows.Forms.Label();
+            this.pipeBottom2 = new System.Windows.Forms.PictureBox();
+            this.pipeTop2 = new System.Windows.Forms.PictureBox();
+            this.restartBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.flappyBird)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pipeBottom)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pipeTop)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ground)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pipeBottom2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pipeTop2)).BeginInit();
             this.SuspendLayout();
             // 
             // cboPort
             // 
             this.cboPort.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboPort.FormattingEnabled = true;
-            this.cboPort.Location = new System.Drawing.Point(86, 543);
-            this.cboPort.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cboPort.Location = new System.Drawing.Point(82, 604);
+            this.cboPort.Margin = new System.Windows.Forms.Padding(4);
             this.cboPort.Name = "cboPort";
             this.cboPort.Size = new System.Drawing.Size(160, 24);
             this.cboPort.TabIndex = 0;
             // 
             // btnConnect
             // 
-            this.btnConnect.Location = new System.Drawing.Point(25, 577);
-            this.btnConnect.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnConnect.Location = new System.Drawing.Point(21, 638);
+            this.btnConnect.Margin = new System.Windows.Forms.Padding(4);
             this.btnConnect.Name = "btnConnect";
             this.btnConnect.Size = new System.Drawing.Size(112, 28);
             this.btnConnect.TabIndex = 1;
@@ -76,8 +81,8 @@
             // 
             // txtState
             // 
-            this.txtState.Location = new System.Drawing.Point(304, 543);
-            this.txtState.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtState.Location = new System.Drawing.Point(300, 604);
+            this.txtState.Margin = new System.Windows.Forms.Padding(4);
             this.txtState.Multiline = true;
             this.txtState.Name = "txtState";
             this.txtState.Size = new System.Drawing.Size(271, 145);
@@ -86,7 +91,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 548);
+            this.label1.Location = new System.Drawing.Point(8, 609);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(73, 17);
@@ -95,8 +100,8 @@
             // 
             // btnDisconnect
             // 
-            this.btnDisconnect.Location = new System.Drawing.Point(153, 577);
-            this.btnDisconnect.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDisconnect.Location = new System.Drawing.Point(149, 638);
+            this.btnDisconnect.Margin = new System.Windows.Forms.Padding(4);
             this.btnDisconnect.Name = "btnDisconnect";
             this.btnDisconnect.Size = new System.Drawing.Size(112, 28);
             this.btnDisconnect.TabIndex = 4;
@@ -107,27 +112,29 @@
             // lblAttention
             // 
             this.lblAttention.AutoSize = true;
-            this.lblAttention.Location = new System.Drawing.Point(17, 646);
+            this.lblAttention.Location = new System.Drawing.Point(146, 707);
             this.lblAttention.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblAttention.Name = "lblAttention";
             this.lblAttention.Size = new System.Drawing.Size(64, 17);
             this.lblAttention.TabIndex = 5;
             this.lblAttention.Text = "Attention";
+            this.lblAttention.Visible = false;
             // 
             // lblMeditation
             // 
             this.lblMeditation.AutoSize = true;
-            this.lblMeditation.Location = new System.Drawing.Point(17, 671);
+            this.lblMeditation.Location = new System.Drawing.Point(146, 732);
             this.lblMeditation.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblMeditation.Name = "lblMeditation";
             this.lblMeditation.Size = new System.Drawing.Size(73, 17);
             this.lblMeditation.TabIndex = 5;
             this.lblMeditation.Text = "Meditation";
+            this.lblMeditation.Visible = false;
             // 
             // btnEnableBlink
             // 
-            this.btnEnableBlink.Location = new System.Drawing.Point(25, 607);
-            this.btnEnableBlink.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEnableBlink.Location = new System.Drawing.Point(21, 668);
+            this.btnEnableBlink.Margin = new System.Windows.Forms.Padding(4);
             this.btnEnableBlink.Name = "btnEnableBlink";
             this.btnEnableBlink.Size = new System.Drawing.Size(112, 28);
             this.btnEnableBlink.TabIndex = 6;
@@ -137,8 +144,8 @@
             // 
             // btnDisableBlink
             // 
-            this.btnDisableBlink.Location = new System.Drawing.Point(153, 607);
-            this.btnDisableBlink.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDisableBlink.Location = new System.Drawing.Point(149, 668);
+            this.btnDisableBlink.Margin = new System.Windows.Forms.Padding(4);
             this.btnDisableBlink.Name = "btnDisableBlink";
             this.btnDisableBlink.Size = new System.Drawing.Size(112, 28);
             this.btnDisableBlink.TabIndex = 7;
@@ -149,36 +156,40 @@
             // flappyBird
             // 
             this.flappyBird.Image = global::ThinkGearNETTest.Properties.Resources.bird;
-            this.flappyBird.Location = new System.Drawing.Point(-2, 371);
+            this.flappyBird.Location = new System.Drawing.Point(-2, 30);
             this.flappyBird.Name = "flappyBird";
-            this.flappyBird.Size = new System.Drawing.Size(82, 57);
+            this.flappyBird.Size = new System.Drawing.Size(79, 57);
             this.flappyBird.TabIndex = 8;
             this.flappyBird.TabStop = false;
             // 
             // pipeBottom
             // 
             this.pipeBottom.Image = global::ThinkGearNETTest.Properties.Resources.pipedown;
-            this.pipeBottom.Location = new System.Drawing.Point(724, -297);
+            this.pipeBottom.Location = new System.Drawing.Point(466, -354);
+            this.pipeBottom.MaximumSize = new System.Drawing.Size(190, 550);
+            this.pipeBottom.MinimumSize = new System.Drawing.Size(190, 120);
             this.pipeBottom.Name = "pipeBottom";
-            this.pipeBottom.Size = new System.Drawing.Size(192, 554);
+            this.pipeBottom.Size = new System.Drawing.Size(190, 550);
             this.pipeBottom.TabIndex = 9;
             this.pipeBottom.TabStop = false;
             // 
             // pipeTop
             // 
             this.pipeTop.Image = global::ThinkGearNETTest.Properties.Resources.pipe;
-            this.pipeTop.Location = new System.Drawing.Point(287, 325);
+            this.pipeTop.Location = new System.Drawing.Point(120, 325);
+            this.pipeTop.MaximumSize = new System.Drawing.Size(190, 230);
+            this.pipeTop.MinimumSize = new System.Drawing.Size(190, 120);
             this.pipeTop.Name = "pipeTop";
-            this.pipeTop.Size = new System.Drawing.Size(191, 176);
+            this.pipeTop.Size = new System.Drawing.Size(190, 230);
             this.pipeTop.TabIndex = 10;
             this.pipeTop.TabStop = false;
             // 
             // ground
             // 
             this.ground.Image = global::ThinkGearNETTest.Properties.Resources.ground;
-            this.ground.Location = new System.Drawing.Point(-2, 498);
+            this.ground.Location = new System.Drawing.Point(-2, 553);
             this.ground.Name = "ground";
-            this.ground.Size = new System.Drawing.Size(1360, 210);
+            this.ground.Size = new System.Drawing.Size(1360, 217);
             this.ground.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.ground.TabIndex = 11;
             this.ground.TabStop = false;
@@ -193,17 +204,17 @@
             // 
             this.scoreText.AutoSize = true;
             this.scoreText.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.scoreText.Location = new System.Drawing.Point(583, 543);
+            this.scoreText.Location = new System.Drawing.Point(579, 604);
             this.scoreText.Name = "scoreText";
-            this.scoreText.Size = new System.Drawing.Size(107, 35);
+            this.scoreText.Size = new System.Drawing.Size(164, 35);
             this.scoreText.TabIndex = 12;
-            this.scoreText.Text = "scoreText";
+            this.scoreText.Text = "Current score: ";
             // 
             // endText1
             // 
             this.endText1.AutoSize = true;
             this.endText1.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.endText1.Location = new System.Drawing.Point(583, 588);
+            this.endText1.Location = new System.Drawing.Point(579, 649);
             this.endText1.Name = "endText1";
             this.endText1.Size = new System.Drawing.Size(109, 35);
             this.endText1.TabIndex = 13;
@@ -213,7 +224,7 @@
             // 
             this.endText2.AutoSize = true;
             this.endText2.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.endText2.Location = new System.Drawing.Point(583, 630);
+            this.endText2.Location = new System.Drawing.Point(579, 691);
             this.endText2.Name = "endText2";
             this.endText2.Size = new System.Drawing.Size(109, 35);
             this.endText2.TabIndex = 14;
@@ -223,23 +234,56 @@
             // 
             this.gameDesigner.AutoSize = true;
             this.gameDesigner.Font = new System.Drawing.Font("Segoe Print", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.gameDesigner.Location = new System.Drawing.Point(583, 671);
+            this.gameDesigner.Location = new System.Drawing.Point(579, 732);
             this.gameDesigner.Name = "gameDesigner";
             this.gameDesigner.Size = new System.Drawing.Size(152, 35);
             this.gameDesigner.TabIndex = 15;
             this.gameDesigner.Text = "gameDesigner";
             // 
+            // pipeBottom2
+            // 
+            this.pipeBottom2.Image = global::ThinkGearNETTest.Properties.Resources.pipe;
+            this.pipeBottom2.Location = new System.Drawing.Point(846, 327);
+            this.pipeBottom2.MaximumSize = new System.Drawing.Size(190, 250);
+            this.pipeBottom2.MinimumSize = new System.Drawing.Size(190, 100);
+            this.pipeBottom2.Name = "pipeBottom2";
+            this.pipeBottom2.Size = new System.Drawing.Size(190, 228);
+            this.pipeBottom2.TabIndex = 16;
+            this.pipeBottom2.TabStop = false;
+            // 
+            // pipeTop2
+            // 
+            this.pipeTop2.Image = global::ThinkGearNETTest.Properties.Resources.pipedown;
+            this.pipeTop2.Location = new System.Drawing.Point(1153, -331);
+            this.pipeTop2.MaximumSize = new System.Drawing.Size(190, 550);
+            this.pipeTop2.MinimumSize = new System.Drawing.Size(190, 120);
+            this.pipeTop2.Name = "pipeTop2";
+            this.pipeTop2.Size = new System.Drawing.Size(190, 550);
+            this.pipeTop2.TabIndex = 17;
+            this.pipeTop2.TabStop = false;
+            // 
+            // restartBtn
+            // 
+            this.restartBtn.Location = new System.Drawing.Point(21, 704);
+            this.restartBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.restartBtn.Name = "restartBtn";
+            this.restartBtn.Size = new System.Drawing.Size(112, 28);
+            this.restartBtn.TabIndex = 18;
+            this.restartBtn.Text = "Restart";
+            this.restartBtn.UseVisualStyleBackColor = true;
+            this.restartBtn.Click += new System.EventHandler(this.RestartBtn_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Azure;
             this.ClientSize = new System.Drawing.Size(1355, 773);
+            this.Controls.Add(this.restartBtn);
             this.Controls.Add(this.gameDesigner);
             this.Controls.Add(this.endText2);
             this.Controls.Add(this.endText1);
             this.Controls.Add(this.scoreText);
-            this.Controls.Add(this.pipeTop);
-            this.Controls.Add(this.pipeBottom);
             this.Controls.Add(this.flappyBird);
             this.Controls.Add(this.btnDisableBlink);
             this.Controls.Add(this.btnEnableBlink);
@@ -251,7 +295,11 @@
             this.Controls.Add(this.btnConnect);
             this.Controls.Add(this.cboPort);
             this.Controls.Add(this.ground);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Controls.Add(this.pipeTop);
+            this.Controls.Add(this.pipeBottom2);
+            this.Controls.Add(this.pipeBottom);
+            this.Controls.Add(this.pipeTop2);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -262,6 +310,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pipeBottom)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pipeTop)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ground)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pipeBottom2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pipeTop2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -287,6 +337,9 @@
         private System.Windows.Forms.Label endText1;
         private System.Windows.Forms.Label endText2;
         private System.Windows.Forms.Label gameDesigner;
+        private System.Windows.Forms.PictureBox pipeBottom2;
+        private System.Windows.Forms.PictureBox pipeTop2;
+        private System.Windows.Forms.Button restartBtn;
     }
 }
 

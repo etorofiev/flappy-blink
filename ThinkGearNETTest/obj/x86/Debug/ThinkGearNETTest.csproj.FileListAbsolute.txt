@@ -11,3 +11,16 @@ E:\MindWave\thinkgearnet\ThinkGearNETTest\bin\x86\Debug\ThinkGearNET.pdb
 E:\MindWave\thinkgearnet\ThinkGearNETTest\obj\x86\Debug\ThinkGearNETTest.csproj.CopyComplete
 E:\MindWave\thinkgearnet\ThinkGearNETTest\obj\x86\Debug\ThinkGearNETTest.exe
 E:\MindWave\thinkgearnet\ThinkGearNETTest\obj\x86\Debug\ThinkGearNETTest.pdb
+E:\WorkingFlappyBlink\ThinkGearNETTest\bin\x86\Debug\thinkgear.dll
+E:\WorkingFlappyBlink\ThinkGearNETTest\bin\x86\Debug\ThinkGearNETTest.exe
+E:\WorkingFlappyBlink\ThinkGearNETTest\bin\x86\Debug\ThinkGearNETTest.pdb
+E:\WorkingFlappyBlink\ThinkGearNETTest\bin\x86\Debug\ThinkGearNET.dll
+E:\WorkingFlappyBlink\ThinkGearNETTest\bin\x86\Debug\ThinkGearNET.pdb
+E:\WorkingFlappyBlink\ThinkGearNETTest\obj\x86\Debug\ThinkGearNETTest.csprojAssemblyReference.cache
+E:\WorkingFlappyBlink\ThinkGearNETTest\obj\x86\Debug\ThinkGearNETTest.Form1.resources
+E:\WorkingFlappyBlink\ThinkGearNETTest\obj\x86\Debug\ThinkGearNETTest.Properties.Resources.resources
+E:\WorkingFlappyBlink\ThinkGearNETTest\obj\x86\Debug\ThinkGearNETTest.csproj.GenerateResource.cache
+E:\WorkingFlappyBlink\ThinkGearNETTest\obj\x86\Debug\ThinkGearNETTest.csproj.CoreCompileInputs.cache
+E:\WorkingFlappyBlink\ThinkGearNETTest\obj\x86\Debug\ThinkGearNETTest.csproj.CopyComplete
+E:\WorkingFlappyBlink\ThinkGearNETTest\obj\x86\Debug\ThinkGearNETTest.exe
+E:\WorkingFlappyBlink\ThinkGearNETTest\obj\x86\Debug\ThinkGearNETTest.pdb

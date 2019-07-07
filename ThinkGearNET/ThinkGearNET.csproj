@@ -96,15 +96,9 @@
     <Compile Include="ThinkGearWrapper.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="docs\copyright.txt" />
-    <Content Include="docs\license.txt" />
-    <Content Include="docs\ReadMe.txt" />
     <Content Include="thinkgear.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="docs\NeuroSky_License_Agreement.pdf" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
